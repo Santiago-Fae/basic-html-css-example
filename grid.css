@@ -1,7 +1,3 @@
-/* Container div takes up the whole space */
-* {
-    font-family: Arial, sans-serif;
-}
 .header {
     display: block;
     text-align: center;
@@ -10,6 +6,7 @@
     border-color: grey;
     border-style: solid;
     padding: 38px;
+    font-family: cursive;
 }
 .header li {
     list-style: none;
@@ -48,7 +45,7 @@
 .no-border-top {
     border-top: none;
 }
-/* Article section is displayed as a block */
+
 .article {
     display: block;
 }
@@ -57,12 +54,10 @@
     margin-right: -25px;
 }
 
-/* Images section is displayed as block to group them */
 .images {
     display: block;
 }
 
-/* Each image is inline-block to align them horizontally */
 .image {
     display: inline-block;
 }
