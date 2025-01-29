@@ -1,4 +1,7 @@
 /* Container div takes up the whole space */
+* {
+    font-family: Arial, sans-serif;
+}
 .header {
     display: block;
     text-align: center;
