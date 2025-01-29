@@ -1,0 +1,79 @@
+/* Container div takes up the whole space */
+.header {
+    display: block;
+    text-align: center;
+    background-color: #fddcdc;
+    border-width: 10px 10px 10px 10px;
+    border-color: grey;
+    border-style: solid;
+    padding: 38px;
+}
+.header li {
+    list-style: none;
+
+}
+.container {
+    display: block;
+    text-align: center;
+    margin: 10px 0
+}
+
+.group {
+    display: inline-block;
+    vertical-align: text-bottom;
+    text-align: center;
+    border: 10px solid;
+    height: 400px;
+}
+.group.articles {
+    width: 60%;
+}
+
+.group.projects {
+    width: 20%;
+    margin-top: 10px;
+}
+ 
+.border-boxes {
+    background-color: #fddcdc;
+    border-width: 10px 7px 8px 10px;
+    border-color: grey;
+    border-style: solid;
+    padding: 38px;
+}
+
+.no-border-top {
+    border-top: none;
+}
+/* Article section is displayed as a block */
+.article {
+    display: block;
+}
+
+.negative-margin {
+    margin-right: -25px;
+}
+
+/* Images section is displayed as block to group them */
+.images {
+    display: block;
+}
+
+/* Each image is inline-block to align them horizontally */
+.image {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    background-color: #fddcdc;
+    border-width: 10px 10px 10px 10px;
+    border-color: grey;
+    border-style: solid;
+    padding: 38px;
+}
